@@ -100,7 +100,7 @@
 &kp LCTRL         &kp LEFT_WIN  &lt_to_layer_0 1 LEFT_ALT  &IME_TOGGLE  &lt 3 SPACE  &lt 1 SPACE           &kp BACKSPACE      &lt 2 ENTER                         &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         FUNCTION {
