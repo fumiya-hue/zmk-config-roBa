@@ -172,10 +172,10 @@
 
         SIMBOL {
             bindings = <
-&trans         &trans    &trans     &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&kp AMPERSAND  &kp HASH  &kp SQT    &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &trans    &kp COLON  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &trans    &trans     &trans  &trans  &trans      &trans  &trans                          &trans
+&trans         &trans    &trans     &trans  &trans                      &trans  &trans     &trans      &trans     &trans
+&kp AMPERSAND  &kp HASH  &kp SQT    &trans  &trans  &trans      &trans  &trans  &trans     &trans      &trans     &trans
+&trans         &trans    &kp COLON  &trans  &trans  &trans      &trans  &trans  &kp COMMA  &kp PERIOD  &kp SLASH  &kp NON_US_BACKSLASH
+&trans         &trans    &trans     &trans  &trans  &trans      &trans  &trans                                    &trans
             >;
         };
     };
